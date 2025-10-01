@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description:
     "Liberate high-performing founders from operational chaos with working AI systems. Not an agency, not a freelancer — a precision engineering studio for mental bandwidth.",
   generator: "v0.app",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({
