@@ -1,3 +1,5 @@
+"use client"
+
 import { AlertCircle, Clock, DollarSign, Brain } from "lucide-react"
 
 export function CostOfChaosSection() {
