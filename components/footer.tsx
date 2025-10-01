@@ -1,12 +1,12 @@
+import Image from "next/image"
+
 export function Footer() {
   return (
     <footer className="relative py-12 px-6 border-t border-border bg-card">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-accent rounded-sm flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">ML</span>
-            </div>
+          <div className="flex items-center gap-3">
+            <Image src="/logo.png" alt="Mentis Liberum" width={32} height={32} className="w-8 h-8" />
             <div>
               <div className="font-semibold">Mentis Liberum</div>
               <div className="text-sm text-muted-foreground">Freedom of mind</div>

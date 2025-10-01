@@ -1,3 +1,5 @@
+"use client"
+
 import { Target, Zap, Shield, Compass } from "lucide-react"
 
 export function TeamSection() {
