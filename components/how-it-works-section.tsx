@@ -1,3 +1,5 @@
+"use client"
+
 import { Search, Wrench, TrendingUp } from "lucide-react"
 
 export function HowItWorksSection() {
